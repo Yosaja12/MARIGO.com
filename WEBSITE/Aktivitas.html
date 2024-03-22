@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARIGO: mari olahraga</title>
+    <style>
+        /* Styling for demonstration purposes, you can modify this */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .post {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+        .activity {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .target-form {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .target-form form {
+            max-width: 400px;
+            margin: auto;
+        }
+        .target-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .target-form input[type="text"],
+        .target-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .target-form input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .target-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARIGO: mari olahraga</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil Saya</a></li>
+            <li><a href="#">Aktivitas</a></li>
+            <li><a href="#">Teman</a></li>
+            <li><a href="#">Foto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h2>Aktivitas Olahraga</h2>
+        
+        <!-- Target Olahraga -->
+        <div class="activity">
+            <h3>Target Olahraga</h3>
+            <p>Minggu ini, saya ingin berlari minimal 20 kilometer!</p>
+        </div>
+        
+        <!-- Aktivitas Terbaru -->
+        <h3>Aktivitas Terbaru</h3>
+        <div class="post">
+            <h4>Jogging di Taman Kota</h4>
+            <p>Hari ini saya berjalan pagi di taman kota, cuaca sangat menyenangkan!</p>
+            <img src="gambar/jogging.jpg" alt="Jogging di Taman Kota">
+        </div>
+        <div class="post">
+            <h4>Main Basket Bersama Teman</h4>
+            <p>Kemarin saya bermain basket bersama teman-teman di lapangan dekat rumah!</p>
+            <img src="gambar/basket.jpg" alt="Main Basket">
+        </div>
+        
+        <!-- Form Target Olahraga -->
+        <div class="target-form">
+            <h3>Atur Target Olahraga</h3>
+            <form>
+                <label for="target">Target Minggu Ini:</label>
+                <input type="text" id="target" name="target" placeholder="Contoh: Berlari 20 km">
+                
+                <label for="deskripsi">Deskripsi Tambahan:</label>
+                <textarea id="deskripsi" name="deskripsi" placeholder="Tambahkan deskripsi atau catatan..."></textarea>
+                
+                <input type="submit" value="Atur Target">
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 MARIGO: mari olahraga</p>
+    </footer>
+</body>
+</html>

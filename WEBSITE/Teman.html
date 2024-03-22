@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARIGO: mari olahraga</title>
+    <style>
+        /* Styling for demonstration purposes, you can modify this */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .post {
+            background: #f9f9f9;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+        .friend-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .friend {
+            background: #f9f9f9;
+            padding: 10px;
+            text-align: center;
+        }
+        .friend img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .achievement {
+            background: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .achievement h3 {
+            margin-bottom: 10px;
+        }
+        .achievement ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        .achievement li {
+            margin-bottom: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARIGO: mari olahraga</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil Saya</a></li>
+            <li><a href="#">Aktivitas</a></li>
+            <li><a href="#">Teman</a></li>
+            <li><a href="#">Foto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h2>Daftar Teman</h2>
+        
+        <!-- Teman 1 -->
+        <div class="friend-list">
+            <div class="friend">
+                <img src="gambar/teman1.jpg" alt="Teman 1">
+                <p>Nama Teman 1</p>
+                <div class="achievement">
+                    <h3>Pencapaian Olahraga Bulan Ini</h3>
+                    <ul>
+                        <li>20 km Lari</li>
+                        <li>10 km Bersepeda</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Teman 2 -->
+            <div class="friend">
+                <img src="gambar/teman2.jpg" alt="Teman 2">
+                <p>Nama Teman 2</p>
+                <div class="achievement">
+                    <h3>Pencapaian Olahraga Bulan Ini</h3>
+                    <ul>
+                        <li>15 km Renang</li>
+                        <li>5 km Lari</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Teman 3 -->
+            <div class="friend">
+                <img src="gambar/teman3.jpg" alt="Teman 3">
+                <p>Nama Teman 3</p>
+                <div class="achievement">
+                    <h3>Pencapaian Olahraga Bulan Ini</h3>
+                    <ul>
+                        <li>30 km Bersepeda</li>
+                        <li>10 km Jogging</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 MARIGO: mari olahraga</p>
+    </footer>
+</body>
+</html>
+
